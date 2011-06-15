@@ -7,6 +7,7 @@ Usage
 -----
 
 ```php
+<?php
 require('chDirectorsParser.class.php');
 
 $parser = new chDirectorsParser('sample-data/Prod195_9938_ew_3_Sample.dat');
@@ -27,6 +28,7 @@ foreach($parser as $entry)
     }
     
 }
+?>
 ```
 
 Company properties
